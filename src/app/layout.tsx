@@ -1,24 +1,6 @@
 import type { Metadata } from "next";
-import {
-  Playfair_Display,
-  Inter,
-  JetBrains_Mono,
-  Cormorant_Garamond,
-} from "next/font/google";
+import { Inter, JetBrains_Mono } from "next/font/google";
 import "./globals.css";
-
-const playfair = Playfair_Display({
-  subsets: ["latin"],
-  variable: "--font-serif",
-  display: "swap",
-});
-
-const cormorant = Cormorant_Garamond({
-  subsets: ["latin"],
-  weight: ["300", "400", "500", "600"],
-  variable: "--font-editorial",
-  display: "swap",
-});
 
 const inter = Inter({
   subsets: ["latin"],
@@ -33,24 +15,27 @@ const jetbrains = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Your Lie in Portfolio — Kushagra",
+  title: "kushagra's web ★ revki.me",
   description:
-    "A cinematic memoir in code. An interactive journey through one person's relationship with building things.",
+    "Kushagra's single-viewport dashboard & memoir. Machine learning, full-stack engineering, and interactive systems.",
   keywords: [
     "portfolio",
     "developer",
+    "machine learning",
     "software engineer",
     "AI",
     "full-stack",
     "Kushagra",
-    "cinematic",
-    "interactive",
+    "revki.me",
+    "isobelsweb",
+    "neocities",
   ],
   openGraph: {
-    title: "Your Lie in Portfolio — Kushagra",
+    title: "kushagra's web ★ revki.me",
     description:
-      "A cinematic memoir in code. Not a portfolio — an experience.",
+      "A single-viewport dashboard & memoir in code. Crafted with care.",
     type: "website",
+    url: "https://revki.me",
   },
 };
 
@@ -60,11 +45,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html
-      lang="en"
-      className={`${playfair.variable} ${cormorant.variable} ${inter.variable} ${jetbrains.variable}`}
-    >
-      <body className="bg-void text-cream font-sans antialiased">
+    <html lang="en" className={`${inter.variable} ${jetbrains.variable}`} data-theme="lime">
+      <body className="antialiased bg-[#0c1017] text-[#f3efe6]">
         {children}
       </body>
     </html>

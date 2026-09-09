@@ -63,22 +63,22 @@ export const skills: Skill[] = [
   { label: "Python", size: "lg", opacity: 0.95, group: "core" },
   { label: "Next.js", size: "lg", opacity: 0.9, group: "core" },
   // Inner ring
-  { label: "TypeScript", size: "md", opacity: 0.8, group: "inner" },
-  { label: "PyTorch", size: "md", opacity: 0.75, group: "inner" },
-  { label: "Node.js", size: "md", opacity: 0.7, group: "inner" },
-  { label: "Framer Motion", size: "md", opacity: 0.7, group: "inner" },
-  { label: "NLP", size: "md", opacity: 0.65, group: "inner" },
-  // Outer ring — dimmest
-  { label: "Docker", size: "sm", opacity: 0.45, group: "outer" },
-  { label: "AWS", size: "sm", opacity: 0.4, group: "outer" },
-  { label: "SQL", size: "sm", opacity: 0.45, group: "outer" },
-  { label: "Figma", size: "sm", opacity: 0.4, group: "outer" },
-  { label: "Java", size: "sm", opacity: 0.4, group: "outer" },
-  { label: "Three.js", size: "sm", opacity: 0.45, group: "outer" },
-  { label: "LLMs", size: "sm", opacity: 0.5, group: "outer" },
-  { label: "Data Science", size: "sm", opacity: 0.4, group: "outer" },
-  { label: "REST APIs", size: "sm", opacity: 0.45, group: "outer" },
-  { label: "Tailwind CSS", size: "sm", opacity: 0.4, group: "outer" },
+  { label: "TypeScript", size: "md", opacity: 0.9, group: "inner" },
+  { label: "PyTorch", size: "md", opacity: 0.85, group: "inner" },
+  { label: "Node.js", size: "md", opacity: 0.8, group: "inner" },
+  { label: "Framer Motion", size: "md", opacity: 0.8, group: "inner" },
+  { label: "NLP", size: "md", opacity: 0.75, group: "inner" },
+  // Outer ring
+  { label: "Docker", size: "sm", opacity: 0.6, group: "outer" },
+  { label: "AWS", size: "sm", opacity: 0.55, group: "outer" },
+  { label: "SQL", size: "sm", opacity: 0.6, group: "outer" },
+  { label: "Figma", size: "sm", opacity: 0.55, group: "outer" },
+  { label: "Java", size: "sm", opacity: 0.55, group: "outer" },
+  { label: "Three.js", size: "sm", opacity: 0.6, group: "outer" },
+  { label: "LLMs", size: "sm", opacity: 0.65, group: "outer" },
+  { label: "Data Science", size: "sm", opacity: 0.55, group: "outer" },
+  { label: "REST APIs", size: "sm", opacity: 0.6, group: "outer" },
+  { label: "Tailwind CSS", size: "sm", opacity: 0.55, group: "outer" },
 ];
 
 // ── Goals (depth layers) ──
